@@ -8,3 +8,11 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+html {
+  @apply min-h-full;
+}
+
+body {
+  @apply bg-gray-100 w-full m-0 p-5;
+}
